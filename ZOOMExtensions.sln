@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZOOMExtensions", "ZOOMExtensions\ZOOMExtensions.csproj", "{8609B4D0-E3E4-42AE-A375-93996C14AE54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZOOMExtensions.Tests", "ZOOMExtensions.Tests\ZOOMExtensions.Tests.csproj", "{C3A823FF-E87B-4884-9F69-38D092E3F4C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8609B4D0-E3E4-42AE-A375-93996C14AE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8609B4D0-E3E4-42AE-A375-93996C14AE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8609B4D0-E3E4-42AE-A375-93996C14AE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
