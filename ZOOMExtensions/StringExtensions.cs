@@ -7,7 +7,7 @@ namespace ZOOMExtensions
         [GeneratedRegex("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$")]
         private static partial Regex EmailRegex();
 
-        public static bool IsValidEmail(this string email)
+        public static bool IsValidEmail(this string? email)
         {
             if (string.IsNullOrEmpty(email))
                 return false;
