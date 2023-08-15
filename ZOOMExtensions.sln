@@ -5,9 +5,7 @@ VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZOOMExtensions", "ZOOMExtensions\ZOOMExtensions.csproj", "{8609B4D0-E3E4-42AE-A375-93996C14AE54}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZOOMExtensions.Tests", "ZOOMExtensions.Tests\ZOOMExtensions.Tests.csproj", "{C3A823FF-E87B-4884-9F69-38D092E3F4C7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZOOMExtensions.xUnit", "ZOOMExtensions.xUnit\ZOOMExtensions.xUnit.csproj", "{A0E8D8F0-AB1D-43C1-B729-2E4B429E035F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZOOMExtensions.xUnit", "ZOOMExtensions.xUnit\ZOOMExtensions.xUnit.csproj", "{A0E8D8F0-AB1D-43C1-B729-2E4B429E035F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{8609B4D0-E3E4-42AE-A375-93996C14AE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8609B4D0-E3E4-42AE-A375-93996C14AE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8609B4D0-E3E4-42AE-A375-93996C14AE54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3A823FF-E87B-4884-9F69-38D092E3F4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0E8D8F0-AB1D-43C1-B729-2E4B429E035F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0E8D8F0-AB1D-43C1-B729-2E4B429E035F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E8D8F0-AB1D-43C1-B729-2E4B429E035F}.Release|Any CPU.ActiveCfg = Release|Any CPU
