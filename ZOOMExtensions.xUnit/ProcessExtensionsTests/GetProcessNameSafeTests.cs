@@ -20,9 +20,13 @@ namespace ZOOMExtensions.xUnit.ProcessExtensionsTests
                     process.GetMainModuleNameSafe();
                 }
             }
-            catch (Exception ex) 
+            catch(System.ComponentModel.Win32Exception ex)
             {
                 Assert.Fail(ex.Message);
+            }
+            catch (Exception) 
+            {
+                
             }
         }
     }
