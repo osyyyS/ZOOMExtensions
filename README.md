@@ -20,3 +20,17 @@ string email = "asd@cooldomain.com";
 
 bool isEmail = email.IsValidEmail();
 ```
+
+### Processes
+
+#### Receiving **MainModuleName** from Process
+
+To receive process.MainModule.ModuleName without running into a System.ComponentModel.Win32Exception, call `.GetMainModuleNameSafe()`:
+
+```csharp
+using ZOOMExtensions;
+
+var process = Process.GetCurrentProcess();
+
+string? mainModuleName = process.GetMainModuleNameSafe();
+```
