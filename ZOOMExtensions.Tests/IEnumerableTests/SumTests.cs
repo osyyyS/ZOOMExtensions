@@ -24,4 +24,20 @@ public class SumTests
     var result = timeSpans.Sum();
     Assert.Equal(TimeSpan.FromMinutes(30), result);
   }
+
+  [Fact]
+  public void Sum_NegativeElements_ReturnsNegativeSum()
+  {
+    var timeSpans = new List<TimeSpan> { TimeSpan.FromMinutes(-5), TimeSpan.FromMinutes(-10), TimeSpan.FromMinutes(-15) };
+    var result = timeSpans.Sum();
+    Assert.Equal(TimeSpan.FromMinutes(-30), result);
+  }
+
+  [Fact]
+  public void Sum_ZeroElements_ReturnsZero()
+  {
+    var timeSpans = new List<TimeSpan> { TimeSpan.Zero, TimeSpan.Zero, TimeSpan.Zero };
+    var result = timeSpans.Sum();
+    Assert.Equal(TimeSpan.Zero, result);
+  }
 }
